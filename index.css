@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Berkshire+Swash);
+
+@font-face
+{
+    font-family: alteSchwabacher;
+    src: url('AlteSchwabacher.ttf');
+}
+
+body
+{
+    padding: 15px 10px 10px 10px;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    background-image: url('http://www.interface.ru/iarticle/img/31030_43442494.jpg');
+    background-repeat: repeat;
+}
+
+.newspaper
+{
+    width: 100%;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 100px;
+    font-family: alteSchwabacher;
+    margin-bottom: 0;
+}
+
+hr
+{
+    color: black;
+    background-color: black;
+    height: 1px;
+}
+
+.pub-date p
+{
+    text-align: right;
+    font-weight: 900;
+    font-size: 10px;
+    padding: 0;
+    margin: -5px 5px;
+}
+
+.headline
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.left-part
+{
+    width: 34%;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-right: 1%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.right-part
+{
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 65%;
+    float: right;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.article-name
+{
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+.article-name::first-letter
+{
+    font-family: alteSchwabacher;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.right-part img
+{
+    max-height: 500px;
+}
+
+.article-text-2
+{
+    font-size: 18px;
+    word-spacing: -0.2ex;
+    text-align: justify;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+.article-text-2 h3
+{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 25px;
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    -moz-column-span: all; /* Firefox */
+    column-span: all;
+    text-align: center;
+}
+
+figure
+{
+    padding: 0;
+    margin: 0 10px 10px 0;
+    float: left;
+    width: 100%;
+}
+
+.figure-name
+{
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.figure-name::first-letter
+{
+    font-family: alteSchwabacher;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.article-text-3
+{
+    font-size: 18px;
+    word-spacing: -0.2ex;
+    text-align: justify;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
