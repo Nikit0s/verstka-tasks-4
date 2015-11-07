@@ -9,7 +9,7 @@
 
 body
 {
-    padding: 15px 10px 10px 10px;
+    padding: 15px 10px 10px;
     margin: 0;
     font-family: 'Roboto Slab', serif;
     background-image: url('http://www.interface.ru/iarticle/img/31030_43442494.jpg');
@@ -31,8 +31,8 @@ h1
 
 hr
 {
-    color: black;
-    background-color: black;
+    color: #000;
+    background-color: #000;
     height: 1px;
 }
 
@@ -96,7 +96,7 @@ hr
     max-height: 500px;
 }
 
-.article-text-2
+.text-column-2
 {
     font-size: 18px;
     word-spacing: -0.2ex;
@@ -106,7 +106,18 @@ hr
     column-count: 2;
 }
 
-.article-text-2 h3
+.text-column-2 p
+{
+    margin: 0;
+    padding: 0;
+}
+
+.text-column-2 p::first-letter
+{
+    color: #f00;
+}
+
+.text-column-2 h3
 {
     font-family: 'Berkshire Swash', cursive;
     font-size: 25px;
@@ -126,6 +137,7 @@ figure
 
 .figure-name
 {
+    display: block;
     margin: 0;
     font-size: 40px;
     text-align: center;
@@ -138,7 +150,7 @@ figure
     text-transform: uppercase;
 }
 
-.article-text-3
+.text-column-3
 {
     font-size: 18px;
     word-spacing: -0.2ex;
@@ -146,4 +158,15 @@ figure
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
+}
+
+.text-column-3 p
+{
+    margin: 0;
+    padding: 0;
+}
+
+.text-column-3 p::first-letter
+{
+    color: #f00;
 }
